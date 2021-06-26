@@ -4,7 +4,7 @@
 
 Image recognition has become a major field of research due to its wide range of applications from lesion detection in medical imaging to facial recognition in photography. Convolutional neural networks (CNNs) are one of the most commonly used techniques in computer vision. The main problem with CNNs that initially arose is that deeper networks started to perform worse [1]. 
 
-In 2015, a Microsoft research team (He et al.) pro-posed a new architecture involving residual learning (Fig 1) that allowed the CNN to more easily learn the desired underlying function `H(x)`. `H(x)` can be defined as `H(x) := F(x) + x` where `F(x)` is the residual. The new architecture, named ResNet, learns `F(x)` instead of `H(x)`. This allows the model to more easily learn the indentity mapping by just setting `F(x)` to 0, giving `H(x) = x` [1]. 
+In 2015, a Microsoft research team (He et al.) proposed a new architecture involving residual learning (Fig 1) that allowed the CNN to more easily learn the desired underlying function `H(x)`. `H(x)` can be defined as `H(x) := F(x) + x` where `F(x)` is the residual. The new architecture, named ResNet, learns `F(x)` instead of `H(x)`. This allows the model to more easily learn the indentity mapping by just setting `F(x)` to 0, giving `H(x) = x` [1]. 
 
 ![mnist_example](https://user-images.githubusercontent.com/44730503/123496936-c0e87e80-d5f8-11eb-98cc-ef1e9fbc1afb.png)
 <p align="center"> Figure 1: Sample data from MNIST dataset  </p>
