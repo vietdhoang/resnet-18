@@ -1,6 +1,6 @@
 # Multi-label, Multi-class Classification of Image Data
-**COMP 551: Applied Machine Learning
-Authors: Viet Hoang, Aaron Nadal, Diallo Oballa**
+**COMP 551: Applied Machine Learning** <br />
+**Authors: Viet Hoang, Aaron Nadal, Diallo Oballa**
 
 Image recognition has become a major field of research due to its wide range of applications from lesion detection in medical imaging to facial recognition in photography. Convolutional neural networks (CNNs) are one of the most commonly used techniques in computer vision. The main problem with CNNs that initially arose is that deeper networks started to perform worse [1]. 
 
