@@ -6,7 +6,7 @@ In 2015, a Microsoft research team (He et al.) proposed a new architecture invol
 
 This architecture served as the foundation of the model used in this project to classify digits from a modified MNIST dataset (Fig 1). By using a residual framework, we were able to a create deeper neural network without losing accuracy. We implemented an 18-layer residual neural network (ResNet-18). He et al. built deeper networks (ResNet-34, ResNet-50, ResNet-101 and ResNet-152), but we decided against using those models due to their training times.
 
-We found that our model classified the data veryaccurately, producing 99.619% accuracy on 60% ofthe test data on Kaggle.
+We found that our model classified the data very accurately, producing 99.619% accuracy on 60% ofthe test data on Kaggle.
 
 ![mnist_example](https://user-images.githubusercontent.com/44730503/123496936-c0e87e80-d5f8-11eb-98cc-ef1e9fbc1afb.png)
 <p align="center"> Figure 1: Sample data from MNIST dataset  </p>
